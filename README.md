@@ -60,11 +60,6 @@
 
 ## Setup ed esempio di come gestire le comunicazione con ipc
 - ### Setup
-    - #### Installiamo il modulo
-        ```console
-        npm i ngx-electron --save
-        ```
-
     - #### Importiamo il modulo nell'app.module.ts di Angular
         ```typescript
         import { NgModule } from '@angular/core';
