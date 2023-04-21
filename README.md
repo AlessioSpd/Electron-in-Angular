@@ -30,7 +30,8 @@
 
         mainWindow.loadURL(
             url.format({
-                //path che prende l'html root dalla build di angular, 'test-electron' lo dovrai sostituire con il nome del tuo progetto
+                //path che prende l'html root dalla build di angular
+                //'test-electron' lo dovrai sostituire con il nome del tuo progetto
                 pathname: path.join(__dirname, `./dist/test-electron/index.html`),
                 protocol: 'file:',
                 slashes: true
