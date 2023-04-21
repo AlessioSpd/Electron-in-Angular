@@ -85,7 +85,7 @@
         })
         export class AppModule { }
         ```
-        ora possiao utilizzare le comunicazione con ipc, facciamo un'esempio.
+        ora possiamo utilizzare le comunicazioni con ipc, facciamo un'esempio.
     - ### Creaiamo
         ```console
         npm i ngx-electron --save
