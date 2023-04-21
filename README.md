@@ -44,6 +44,8 @@
     app.whenReady().then( () => {
         createWindow()
     });
+    //se non sai dove trovare il nome del tuo progetto, lo puoi
+    //trovare alla seconda riga nel package.json
     ```
 
 - ### Ora, all' interno di `package.json` linkiamo il main di electron
